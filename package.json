@@ -1,0 +1,9 @@
+{
+  "name": "afford-assingment",
+  "private": true,
+  "workspaces": [
+    "logger",
+    "backend",
+    "frontend"
+  ]
+}
