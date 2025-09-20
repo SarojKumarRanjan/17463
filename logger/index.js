@@ -20,13 +20,14 @@ export default async function Log(stack, level, packageName, message) {
 
     const payload = { stack, level, package: packageName, message };
 
-     const response = await axios.post(apiUrl, payload, {
+      const response = await axios.post(apiUrl, payload, {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
       },
-    }); 
+    });  
 
+  
     
 
     const { logID } = response.data;

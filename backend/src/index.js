@@ -4,7 +4,7 @@ import shortUuid from 'short-uuid';
 import useragent from 'express-useragent';
 import geoip from 'geoip-lite';
 import { connectDB, redisClient } from './db.js';
-import Url from './models/Url.js';
+import Url from './models/Urls.js';
 import Log from "logger"
 import {LEVELS,STACKS,BOTH_PACKAGES,BACKEND_PACKAGES} from "logger/constant.js"
 
